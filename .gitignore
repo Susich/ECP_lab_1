@@ -13,6 +13,7 @@
 *.code-workspace
 *.sublime-project
 *.sublime-workspace
+push_to_github.bat
 
 # Office / export leftovers
 ~$*
@@ -26,3 +27,14 @@ Desktop.ini
 # Build / convert artifacts (keep intentional PDF exports)
 *.log
 .cache/
+
+# Ignore non-selected assignment variants
+variants/04*
+variants/05*
+variants/06*
+variants/07*
+variants/08*
+variants/09*
+variants/10*
+variants/11*
+
